@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif, Arial;
+}
+.navbar{
+    
+    background-color:black;
+    border-radius: 6px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 14px 22px;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a {
+    color:white;
+    text-decoration: none;
+
+}
+.navbar li a:hover{
+    color: #0066CC;
+    text-decoration: underline;
+}
+.search-box{
+    float: right;
+    padding: 13px 24px;
+}
+.navbar input{
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    
+}
